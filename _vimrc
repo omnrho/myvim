@@ -4,7 +4,7 @@ set incsearch
 set hls
 set tabstop=4 
 set shiftwidth=4 
-set mouse=a 
+set mouse=nvc 
 "set rulerformat=%20(%2*%<%f%=\ %m%r\ %3l\ %c\ %p%%%)
 filetype on 
 filetype plugin on
@@ -13,6 +13,7 @@ au FileType c,cpp set expandtab
 "map <F2> :Tlist<CR>
 nmap <F2> :NERDTreeToggle<CR>
 nmap <F3> :TagbarToggle<CR>
+nmap <F12> :!~/.vim/scripts/uptags<CR><CR>:set tags+=./tags<CR>:cs add cscope.out<CR>
 nmap <C-]> g<C-]>
 let mapleader = ","
 "let g:ctrlp_user_command = 'find %s -name "*.c" -o -name "*.h" -o -name "*.cpp"'

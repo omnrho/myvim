@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/work/project/rg300w/apps/miniupnpc/miniupnpc-1.9'
 let g:netrw_dirhist_2='/home/gibson/.vim'
 let g:netrw_dirhist_3='/home/gibson/.vim/after'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/gibson/.vim/ftplugin'
 let g:netrw_dirhist_6='/work/project/rg300w/models/TELEFONICA_RG3000W-D112_16MB_64MB-r241/apps/cwmp/http'
 let g:netrw_dirhist_7='/home/gibson/vimrc'
 let g:netrw_dirhist_8='/work/project/rg300w/models/TELEFONICA_RG3000W-D112_16MB_64MB-r241/apps'
+let g:netrw_dirhist_9='/home/gibson/vimrc'
