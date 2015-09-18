@@ -58,9 +58,9 @@ fun! s:ShowMarksWin(winNo)
     if a:winNo != -1
       call s:switchTo(a:winNo)
     else
-      "exec "to sp" . escape(s:win_title, ' ')
-      "let s:bufNo = bufnr('%')
-      call s:openWindow()
+      exec "bo sp" . escape(s:win_title, ' ')
+      let s:bufNo = bufnr('%')
+      "call s:openWindow()
     endif
     call s:setupBindings()
     let s:isShown = 1
